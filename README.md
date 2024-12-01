@@ -31,11 +31,13 @@ This project explores **HAL**, **CBOW**, and **Skip-Gram** models for generating
 <img src="images/comparing-cbow-skipgram.png" alt="CBOW vs Skipgram" width="350">
 </p>
 
-Main result using Skip-Gram:
+## Main Result
+
 <p align="center">
 <img src="images/comparison.png" alt="CBOW vs Skipgram" width="350">
 </p>
-Despite the smaller dataset, the results were actually **surprisingly** competitive and in some aspects superior against the original reported benchmark results from Rodrigues[^3].
+
+Despite the smaller dataset, the results, using Skip-Gram, were actually **surprisingly** competitive and in some aspects superior against the original reported benchmark results from Rodrigues[^3].
 
 
 For more details check the main [document](WordEmbeddings.pdf).
@@ -45,4 +47,4 @@ For more details check the main [document](WordEmbeddings.pdf).
 ## References
 [^1]: Kevin Lund and Curt Burgess. [Producing high-dimensional semantic spaces from lexical co-occurrence.](https://link.springer.com/article/10.3758/BF03204766) Behavior Research Methods, Instruments, & Computers, 28:203–208, 1996.
 [^2]: Tomas Mikolov, Kai Chen, Greg Corrado, and Jeffrey Dean. [Efficient estimation of word representations in vector space.](https://arxiv.org/abs/1301.3781) arXiv preprint arXiv:1301.3781, 2013.
-[^3]: José Pedro Pinto, Paula Viana, Inês Teixeira, and Maria Andrade. [Improving word embeddings in portuguese: increasing accuracy while reducing the size of the corpus.](https://peerj.com/articles/cs-964/).
+[^3]: José Pedro Pinto, Paula Viana, Inês Teixeira, and Maria Andrade. [Improving word embeddings in portuguese: increasing accuracy while reducing the size of the corpus.](https://doi.org/10.7717/peerj-cs.964).
