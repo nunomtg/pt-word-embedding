@@ -40,6 +40,11 @@ This project explores **HAL**, **CBOW**, and **Skip-Gram** models for generating
 Despite the smaller dataset, the results, using Skip-Gram, were actually **surprisingly** competitive and in some aspects superior against the original reported benchmark results from Rodrigues[^3].
 
 
+In order to showcase some impressive capabilities I leave here some analogies obtained with the Skip-Gram model.
+<p align="center">
+<img src="images/analogies_examples.png" alt="CBOW vs Skipgram" width="500">
+</p>
+
 For more details check the main [document](WordEmbeddings.pdf).
 
 
